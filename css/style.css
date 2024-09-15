@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    width: 100%;    
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0;
+    font-size: 3rem;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: rgb(166, 206, 20);
+    background-image: url(../imagenes/mainpage/fondo\ url.jpg);
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(166, 206, 20, 0.1),
+                0 0 20px rgba(166, 206, 20, 0.2),
+                0 0 30px rgba(166, 206, 20, 0.2),
+                0 0 40px rgba(166, 206, 20, 0.2),
+                0 0 50px rgba(166, 206, 20, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    
+}
+
+footer img {
+    width: 32px; /* Ajusta el tamaño de los íconos de redes sociales */
+    margin: 0 10px;
+}
+
+
+
+.img-1 img, .img2 img, .img3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav {
+    font-size: 1rem;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.abajito{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;}
+.abajito a{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* Centra el contenido dentro de la barra de navegación */
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: solid 2px black;
+}
+
+/* Opcional: Ajustar la posición del branding */
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+textarea {
+    width: 100%;      /* Ancho completo del contenedor padre */
+    height: 200px;    /* Altura de 200px */
+    padding: 10px;    /* Espacio interno (padding) para un mejor aspecto */
+    font-size: 16px;  /* Tamaño de la fuente */
+    box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
+    resize: none;     /* Evita que el usuario cambie el tamaño (opcional) */
+}
+.botonenviar {
+    display: flex;
+    justify-content: center;
+}
+
+.product-item {
+    width: 200px; /* Ajusta el ancho de cada producto */
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.product-item img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #218838;
+}
+
+.product-item:hover {
+    transform: translateY(-5px); /* Eleva el producto al pasar el cursor */
+}
+
+.containerstore {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+
+}
+
+.table-container {
+    margin: 20px auto;
+    max-width: 600px; /* Ajusta según tus necesidades */
+    padding: 10px;
+}
+
+/* Estilos básicos de la tabla */
+.size-table {
+    width: 100%;
+    border-collapse: collapse; /* Evita el espaciado entre las celdas */
+    background-color: #f9f9f9; /* Color de fondo de la tabla */
+}
+
+/* Estilos para los encabezados */
+.size-table thead {
+    background-color: #333; /* Color de fondo de los encabezados */
+    color: #fff; /* Color del texto de los encabezados */
+}
+
+.size-table th {
+    padding: 12px; /* Espaciado interno en los encabezados */
+    text-align: left; /* Alineación del texto en los encabezados */
+    border-bottom: 2px solid #ddd; /* Línea inferior en los encabezados */
+}
+
+/* Estilos para las celdas de datos */
+.size-table td {
+    padding: 12px; /* Espaciado interno en las celdas de datos */
+    border-bottom: 1px solid #ddd; /* Línea inferior en las celdas de datos */
+}
+
+/* Estilos para las filas */
+.size-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo alternativo para las filas pares */
+}
+
+.size-table tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón sobre una fila */
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+color: white;}
+    
+/* Asegúrate de que las imágenes ocupen el 100% del ancho de su contenedor */
+    .img-1 img, .img2 img, .img3 img {
+        width: 100%;
+        height: auto;
+        display: block; /* Elimina el espacio debajo de las imágenes */
+
+.quienes-somos {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.btn btn-warning {
+    display: flex;
+    justify-content: center;
+    
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Ajusta el ancho según tus necesidades */
+  background: none; /* Elimina el color de fondo */
+  border: none; /* Elimina el borde */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo de los iconos */
+  border-radius: 50%; /* Hace los iconos redondeados */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: none; /* Asegúrate de que el fondo no cambie al pasar el cursor */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%; /* Asegura que los iconos se ajusten al tamaño del botón */
+  background-repeat: no-repeat; /* Evita que el icono se repita */
+  background-position: center; /* Centra el icono dentro del botón */
+}
+
+h3 {
+    text-align: center;
+}
