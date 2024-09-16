@@ -75,7 +75,7 @@ color: white;}
 
 
 
-/* Centra el contenido dentro de la barra de navegación */
+
 .navbar-nav {
     display: flex;
     justify-content: space-around;
@@ -83,19 +83,19 @@ color: white;}
     border-radius: solid 2px black;
 }
 
-/* Opcional: Ajustar la posición del branding */
+
 .navbar-brand {
     display: flex;
     justify-content: center;
     margin-right: auto;
 }
 textarea {
-    width: 100%;      /* Ancho completo del contenedor padre */
-    height: 200px;    /* Altura de 200px */
-    padding: 10px;    /* Espacio interno (padding) para un mejor aspecto */
-    font-size: 16px;  /* Tamaño de la fuente */
-    box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
-    resize: none;     /* Evita que el usuario cambie el tamaño (opcional) */
+    width: 100%;      
+    height: 200px;    
+    padding: 10px;   
+    font-size: 16px;  
+    box-sizing: border-box; 
+    resize: none;     
 }
 .botonenviar {
     display: flex;
@@ -103,7 +103,7 @@ textarea {
 }
 
 .product-item {
-    width: 200px; /* Ajusta el ancho de cada producto */
+    width: 200px; 
     padding: 15px;
     margin: 15px;
     text-align: center;
@@ -115,7 +115,7 @@ textarea {
 }
 
 .product-item img {
-    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    width: 100%; 
     height: auto;
     border-radius: 8px;
 }
@@ -164,38 +164,35 @@ textarea {
     padding: 10px;
 }
 
-/* Estilos básicos de la tabla */
+
 .size-table {
     width: 100%;
-    border-collapse: collapse; /* Evita el espaciado entre las celdas */
-    background-color: #f9f9f9; /* Color de fondo de la tabla */
-}
+    border-collapse: collapse;
+    background-color: #f9f9f9; 
 
-/* Estilos para los encabezados */
+
 .size-table thead {
-    background-color: #333; /* Color de fondo de los encabezados */
-    color: #fff; /* Color del texto de los encabezados */
+    background-color: #333; 
+    color: #fff; 
 }
 
 .size-table th {
-    padding: 12px; /* Espaciado interno en los encabezados */
-    text-align: left; /* Alineación del texto en los encabezados */
-    border-bottom: 2px solid #ddd; /* Línea inferior en los encabezados */
-}
+    padding: 12px; 
+    text-align: left; 
+    border-bottom: 2px solid #ddd; 
 
-/* Estilos para las celdas de datos */
+
 .size-table td {
-    padding: 12px; /* Espaciado interno en las celdas de datos */
-    border-bottom: 1px solid #ddd; /* Línea inferior en las celdas de datos */
-}
+    padding: 12px; 
+    border-bottom: 1px solid #ddd; 
 
 /* Estilos para las filas */
 .size-table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Color de fondo alternativo para las filas pares */
+    background-color: #f2f2f2; 
 }
 
 .size-table tr:hover {
-    background-color: #ddd; /* Color de fondo al pasar el ratón sobre una fila */
+    background-color: #ddd; 
 }
 
 .titulo {
@@ -203,7 +200,7 @@ textarea {
     font-size: 1.5rem;
 color: white;}
     
-/* Asegúrate de que las imágenes ocupen el 100% del ancho de su contenedor */
+
     .img-1 img, .img2 img, .img3 img {
         width: 100%;
         height: auto;
